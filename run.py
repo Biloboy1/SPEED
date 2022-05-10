@@ -14,28 +14,32 @@ B = ('\x1b[1;96m')
 P = ('\x1b[1;97m')
 
 # Logo
-___logo___ = (f"""{M} 
-  _   _       _                               _ 
- | \ | | __ _| |_ ___ _   _ _ __   __ _  __ _(_)
- |  \| |/ _` | __/ __| | | | '_ \ / _` |/ _` | |
- | |\  | (_| | |_\__ \ |_| | | | | (_| | (_| | |
- |_| \_|\__,_|\__|___/\__,_|_| |_|\__,_|\__, |_|
-                                        |___/{P}
-                                        
-{B}[{P}>{B}]{P} {K}Share Tools Crack Akun IG, Not For Sale!{P}
+___logo___ = (f"""{H} 
 
-{B}[{P}•{B}]{M}——————————————————————————————{P}
-{B}[{P}>{B}]{P} {K}AU {P}: {K}Arya {P}Ft. {H}Najimi {M}Ajimu
-{B}[{P}>{B}]{P} {B}FB {P}: {B}Arya Adinata MD.
-{B}[{P}>{B}]{P} {U}IG {P}: {U}@mizari.rhein
-{B}[{P}>{B}]{P} {H}WA {P}: {H}+6289694295787
-{B}[{P}•{B}]{M}——————————————————————————————{P}
+ _______  _______  _______  _______  __   __  _______  __    _ 
+|       ||   _   ||       ||       ||  | |  ||       ||  |  | |
+|    ___||  |_|  ||  _____||_     _||  |_|  ||   _   ||   |_| |
+|   |___ |       || |_____   |   |  |       ||  | |  ||       |
+|    ___||       ||_____  |  |   |  |       ||  |_|  ||  _    |
+|   |    |   _   | _____| |  |   |  |   _   ||       || | |   |
+|___|    |__| |__||_______|  |___|  |__| |__||_______||_|  |__|{H}
+                                        
+{M}[{M}>{M}]{M} {M}Welcome🤝{M}
+{M}[{M}•{M}]{M}╭────────────────────────────────────────────╮{P}
+{M}[{M}>{M}]{M} {H}Author{P}: {M}Darlington
+{M}[{M}>{M}]{M} {H}Facebook{P}: {M}Anonymous
+{M}[{M}>{M}]{M} {H}Instagram{P}: {M}Anonymous
+{M}[{M}>{M}]{M} {H}Github{P}: {M}Ghostson
+{M}[{M}>{M}]{M} {H}WhatsApp{P}: {M}+2349138017570
+{M}[{M}>{M}]{M} {H}Support{P}: {M}CODERS HOOD🥷
+{M}[{M}•{M}]{M} ╰────────────────────────────────────────────╯{P}
+Version: 20.0
 """)
 # Login Cookie
 def ___login___():
     os.system('clear')
     print(___logo___)
-    print(f"{B}[{P}•{B}]{P} {H}Masukan Cookie Instagram, Jika Anda Gabut Ketik {M}[{P}{K}Open{M}]{P}\n")
+    print(f"{B}[{P}•{B}]{P} {H}If you can't get cookies just press {H}[{P}{H}Open{H}]{P}\n")
     ___cookie = input(f"{B}[{P}?{B}]{P} {H}Cookie{P} {K}:{K} ")
     if ___cookie in ['open', 'Open', 'OPEN']:
         print(f"{B}[{P}!{B}]{P} {H}Wait for a minute...{P}");sleep(3);os.system('xdg-open https://wa.me/6289694295787?text=Halo+Banh+Arya');exit()
@@ -82,15 +86,15 @@ def ___menu___():
         print(f"{B}[{M}!{B}]{H} Cookie Invalid");os.system('rm -rf Data/coki.txt && rm -rf Data/user.txt');sleep(3);___login___()
     except (IOError):
         exit(f"{B}[{M}!{B}]{H} Koneksi Error")
-    print(f"{B}[{P}1{B}]{P} {H}Dump Username Dari Mengikuti")
-    print(f"{B}[{P}2{B}]{P} {H}Dump Username Dari Pengikut")
-    print(f"{B}[{P}3{B}]{P} {H}Dump Username Dari Activity")
-    print(f"{B}[{P}4{B}]{P} {H}Dump Username Dari Beranda")
-    print(f"{B}[{P}5{B}]{P} {H}Dump Username Dari Hastag")
-    print(f"{B}[{P}6{B}]{P} {H}Dump Username Dari Search")
-    print(f"{B}[{P}7{B}]{P} {H}Dump Username Dari Query")
-    print(f"{B}[{P}8{B}]{P} {H}Dump User Dari Email")
-    print(f"{B}[{P}9{B}]{P} {H}Mulai Crack {P}[{H}Fast{P}]{H}")
+    print(f"{B}[{P}1{B}]{P} {H}Dump Username From followers")
+    print(f"{B}[{P}2{B}]{P} {H}Dump Username From Pengikut")
+    print(f"{B}[{P}3{B}]{P} {H}Dump Username From Activity")
+    print(f"{B}[{P}4{B}]{P} {H}Dump Username From Beranda")
+    print(f"{B}[{P}5{B}]{P} {H}Dump Username From Hastag")
+    print(f"{B}[{P}6{B}]{P} {H}Dump Username From Search")
+    print(f"{B}[{P}7{B}]{P} {H}Dump Username From Query")
+    print(f"{B}[{P}8{B}]{P} {H}Dump User From Email")
+    print(f"{B}[{P}9{B}]{P} {H}Start Crack {P}[{H}Fast{P}]{H}")
     print(f"{B}[{P}0{B}]{P} {H}Lihat Hasil Crack")
     print(f"{B}[{P}A{B}]{P} {H}Keluar {P}[{M}Exit{P}]{M}\n")
     ___pilih = input(f"{B}[{P}?{B}]{H} Pilih {K}:{P} ")
@@ -117,7 +121,7 @@ def ___menu___():
             print(f"\n{H}[{P}1{H}]{P} Lihat Hasil Ok")
             print(f"{H}[{P}2{H}]{P} Lihat Hasil Cp")
             print(f"{H}[{P}3{H}]{P} Kembali\n")
-            ___hasil = input(f"{B}[{P}?{B}]{P} Pilih :{K} ")
+            ___hasil = input(f"{B}[{P}?{B}]{P} Enter :{K} ")
             if ___hasil in ['1','01']:
                 print(f"{P} ");os.system('cat Results/Ok.txt')
             elif ___hasil in ['2','02']:
@@ -307,7 +311,7 @@ def ___proxy___():
         ___roz = requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
         open('Data/proxy.txt', 'w').write(___roz)
     except Exception as e:
-        ___roz = requests.get('https://raw.githubusercontent.com/RozhakXD/Premium/main/Data/proxy2.txt').text
+        ___roz = requests.get('https://raw.githubusercontent.com/Ghostson/Fasthon/main/Data/proxy2.txt').text
         open('Data/proxy.txt', 'w').write(___roz)
     ___crack___()
 # Crack
@@ -317,11 +321,11 @@ class ___crack___:
         self.kill = 0
         self.ok = []
         self.cp = []
-        print(f"\n{B}[{P}1{B}]{P} {H}Gunakan Password {M}[{H}nama, nama123, nama12345{M}]{H}")
-        print(f"{B}[{P}2{B}]{H} Gunakan Password {M}[{H}nama, nama123, nama1234, nama12345{M}]{H}")
-        print(f"{B}[{P}3{B}]{H} Gunakan Password {M}[{H}nama, nama123, nama1234, nama12345, nama123456{M}]{H}")
-        print(f"{B}[{P}4{B}]{H} Gunakan Password Manual {B}[{K}>5{B}]{H}\n")
-        ___pilih = input(f"{B}[{P}?{B}]{H} Pilih {K}:{H} ")
+        print(f"\n{B}[{P}1{B}]{P} {H}Gunakan Password {M}[{H}name, name123, name12345{M}]{H}")
+        print(f"{B}[{P}2{B}]{H} Crack Password {M}[{H}name, name123, name1234, name12345{M}]{H}")
+        print(f"{B}[{P}3{B}]{H} Crack Password {M}[{H}name, name123, name1234, name12345, name123456{M}]{H}")
+        print(f"{B}[{P}4{B}]{H} Crack Password Manual {B}[{K}>5{B}]{H}\n")
+        ___pilih = input(f"{B}[{P}?{B}]{H} Enter {K}:{H} ")
         if ___pilih in ['4','04']:
             pwx = input(f"{B}[{P}?{B}]{P} Password :{H} ").split(',')
         try:
@@ -413,7 +417,7 @@ class ___crack___:
                     else:
                         continue
             self.kill +=1
-            print(f"{P}[{P}Crack{P}]{P} {self.kill}/{str(len(user))} Fuck:-{len(self.cp)} Live:-{len(self.ok)}          ", end='\r')
+            print(f"{P}[{P}Crack{P}]{P} {self.kill}/{str(len(user))} FUCK💔:-{len(self.cp)} LIVE✅:-{len(self.ok)}          ", end='\r')
         except (ConnectionError):
             print(f"{P}[{K}!{P}]{K} Koneksi Error               ", end='\r');sleep(7);__main__(self, user, uid, pwx)
         except:__main__(self, user, uid, pwx)
